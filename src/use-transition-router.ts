@@ -1,10 +1,10 @@
-import { useRouter as useNextRouter } from 'next/navigation'
-import {startTransition, useCallback, useMemo} from "react";
-import { useSetFinishViewTransition } from "./transition-context";
 import {
-  AppRouterInstance,
-  NavigateOptions
+	AppRouterInstance,
+	NavigateOptions
 } from "next/dist/shared/lib/app-router-context.shared-runtime";
+import { useRouter as useNextRouter } from 'next/navigation.js';
+import { startTransition, useCallback, useMemo } from "react";
+import { useSetFinishViewTransition } from "./transition-context";
 
 export type TransitionOptions = {
   onTransitionReady?: () => void;

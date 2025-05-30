@@ -1,6 +1,6 @@
-import { useEffect, useRef, useState, use } from 'react'
-import { usePathname } from 'next/navigation'
-import { useHash } from './use-hash'
+import { usePathname } from 'next/navigation.js';
+import { use, useEffect, useRef, useState } from 'react';
+import { useHash } from './use-hash';
 
 // TODO: This implementation might not be complete when there are nested
 // Suspense boundaries during a route transition. But it should work fine for

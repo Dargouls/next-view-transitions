@@ -1,6 +1,6 @@
-import NextLink from 'next/link'
-import { useTransitionRouter } from './use-transition-router'
-import { useCallback } from 'react'
+import NextLink from 'next/link.js';
+import { useCallback } from 'react';
+import { useTransitionRouter } from './use-transition-router';
 
 // copied from https://github.com/vercel/next.js/blob/66f8ffaa7a834f6591a12517618dce1fd69784f6/packages/next/src/client/link.tsx#L180-L191
 function isModifiedEvent(event: React.MouseEvent): boolean {
