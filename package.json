@@ -2,7 +2,7 @@
   "name": "next-view-transitions-gabriel-azv",
   "version": "0.3.4",
   "type": "module",
-  "description": "View Transitions API for Next.js App Router",
+  "description": "Um fork de next-view-transitions para animações entre rotas no Next.js",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -25,7 +25,7 @@
     "email": "g@shud.in",
     "url": "https://shud.in"
   },
-  "homepage": "https://next-view-transitions.vercel.app",
+  "homepage": "https://github.com/Dargouls/next-view-transitions",
   "license": "MIT",
   "devDependencies": {
     "@types/react": "^18.2.78",
