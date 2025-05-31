@@ -1,6 +1,6 @@
 {
   "name": "next-view-transitions-gabriel-azv",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "type": "module",
   "description": "Um fork de next-view-transitions para animações entre rotas no Next.js",
   "main": "./dist/index.js",
